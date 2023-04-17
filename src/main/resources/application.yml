@@ -1,0 +1,10 @@
+server:
+  port: 8096
+  servlet:
+    context-path: /patient
+    
+spring:
+  application:
+    name: patient-service
+  profiles:
+    active: dev

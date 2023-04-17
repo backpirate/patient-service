@@ -1,0 +1,53 @@
+server:
+  port: 8096
+  servlet:
+    context-path: /patient
+  
+spring:
+  application:
+    name: patient-service
+
+  datasource:
+    #url: jdbc:mysql://localhost:3306/clinicServiceDataBase?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/patientServiceDataBase?createDatabaseIfNotExist=true
+    #url: jdbc:mysql://db.ccb27u4ngh0j.ap-south-1.rds.amazonaws.com:3306/appointmentService?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+    #url: jdbc:mysql://db.ccb27u4ngh0j.ap-south-1.rds.amazonaws.com:3306/pateintopt?createDatabaseIfNotExist=true
+   # username: admin
+    #password : qwerty12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+     ddl-auto: update
+    properties:
+     hibernate:
+            database-platform: org.hibernate.dialect.MySQL8Dialect
+           
+swagger:
+  url:
+     productionURL: https://optpatient.learn.skillassure.com/patient
+     # localURL: https://localhost:${server.port}/appointment
+     # productionURL: https://localhost:${server.port}/appointment
+  
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: https://service.learn.skillassure.com/eureka/
+  instance:
+    hostname: service.learn.skillassure.com
+
+logging:
+  file:
+    name: inventory.log`
+  pattern:
+    console: '%d %-5level %logger : %msg%n'
+    file: '%d %-5level [%thread] %logger : %msg%n'
+  level:
+    '[org.springframework.web]': INFO
+    '[com.ros.inventory]': DEBUG
+    '[org.hibernate]': INFO
