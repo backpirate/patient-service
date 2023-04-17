@@ -1,0 +1,18 @@
+2023-04-17 10:07:03,102 WARN  [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d9h46m42s959ms865µs200ns).
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(13)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(14)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(15)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(12)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(9)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(16)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(11)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,249 INFO  [RMI TCP Connection(10)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,438 INFO  [RMI TCP Connection(17)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,442 INFO  [RMI TCP Connection(18)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,445 INFO  [RMI TCP Connection(19)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,764 INFO  [RMI TCP Connection(20)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:05,954 INFO  [RMI TCP Connection(21)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17 10:50:06,060 INFO  [RMI TCP Connection(15)-127.0.0.1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-04-17 10:50:06,067 INFO  [RMI TCP Connection(15)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 10:50:06,127 INFO  [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2023-04-17 10:50:06,176 INFO  [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
